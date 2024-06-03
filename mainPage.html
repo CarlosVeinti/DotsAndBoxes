@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Dots and Boxes - Game </title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script
+            src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous">
+        </script>
+
+    </head>
+    
+
+    <body>
+        <center> 
+        <h1 id="titleInGame"> Dots and Boxes</h1>
+        </center>
+
+        <center> 
+        <div class="grid-container">
+            <center> 
+            <div id="player1">
+                Player 1 (Blue): 0
+            </div>
+            </center>
+
+            <center> 
+            <div id="player2">
+                Player 2 (Red): 0
+            </div>
+            </center>
+            <center>
+                <div id="player3">
+                    Player 3 (Yellow): 0
+                </div>
+            </center>
+        </div>
+        </center>
+
+        <br>
+        <center>
+            <div id="player_Display">
+                It's Blue's (Player 1) turn
+            </div>
+        </center>
+        <br>
+            <!--THE TOP ROW ----------------------------------------------------------------->
+            <!--By dafault they seem to have a size of 150x300-->
+            <!--Top left most dot-->
+        <center>
+        <svg class="theGrid" xmlns="http://www.w3.org/2000/svg" width="580" height="580">
+
+            <svg class="theDots">
+
+            </svg>
+
+            <svg class="theLines">
+
+            </svg>
+
+            <svg class="theColorableBoxes">
+                
+            </svg>
+        </svg> <!--END OF GRID SVG-->
+        </center>
+
+        <br>
+        <center>
+        <div class="button-container">
+
+            <a>
+                <button class="restartButton">
+                    Restart Game
+                </button>
+            </a>
+
+
+            <a href="./index.html">
+                <button class="homeButton">
+                    Home
+                </button>
+            </a>
+        </div>
+        <br>
+        <a>
+            <button class="seeResults">
+                Result
+            </button>
+        </a>
+
+        </center>      
+      
+        <script src="./js/script.js"></script> 
+    </body>
+</html>

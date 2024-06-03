@@ -1,0 +1,208 @@
+
+#welcomeBox{
+    border: 10px solid #36454F;
+    border-radius: 30px;
+    color:#36454F;
+    background-color: #F5F5DC;
+}
+
+#titleInGame{
+    border: 10px solid #36454F;
+    border-radius: 30px;
+    color:#36454F;
+    background-color: #F5F5DC;
+}
+
+.grid-container{
+    display: grid;
+    width:600px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+#startGameButton{
+    width: 300px; 
+    height: 30px;
+    background-color: #36454F;
+    border-radius: 30px;
+    color:#F5F5DC;
+}
+
+#startGameButton:hover{
+    background-color:gray;
+}
+
+.restartButton{
+    width:200px;
+    height:50px; 
+    font-size: 20px;
+    background-color: #36454F;
+    border-radius: 30px;
+    color:#F5F5DC;
+}
+
+.restartButton:hover{
+    background-color:gray;
+}
+
+.homeButton{
+    width:200px;
+    height:50px;
+    font-size:20px;
+    background-color: #36454F;
+    border-radius: 30px;
+    color:#F5F5DC;
+}
+
+.homeButton:hover{
+    background-color:gray;
+}
+
+.seeResults{
+    width:200px;
+    height:50px; 
+    font-size: 20px;
+    background-color: #36454F;
+    border-radius: 30px;
+    color:#F5F5DC;
+}
+
+.seeResults:hover{
+    background-color:gray;
+}
+
+#player1{
+    border: 3px solid steelBlue;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #36454F;
+}
+
+#player2{
+    border: 3px solid red;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #36454F;
+}
+#player3{
+    border: 3px solid yellow;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #36454F;
+}
+
+#player_Display{
+    width:400px;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    color:#36454F
+}
+
+#briefInfo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:5px solid #36454F;
+    width: 500px;
+    height: 180px;
+    border-radius: 30px;
+    color: #36454F;
+    font-weight: 600;
+    background-color: #F5F5DC;
+}
+
+
+
+/* Results page related*/
+#resultsHeader{
+    border: 10px solid #36454F;
+    border-radius: 30px;
+    color:#36454F;
+    background-color: #F5F5DC;
+}
+
+
+/*For the first row of horizontal lines*/
+#h11to12:hover, #h12to13:hover,
+#h13to14:hover, #h13to14:hover,
+#h14to15:hover, #h15to16:hover{
+    fill:aqua;
+}
+
+
+/*For the second row of horizontal lines*/
+#h21to22:hover, #h22to23:hover,
+#h23to24:hover, #h23to24:hover,
+#h24to25:hover, #h25to26:hover{
+    fill:aqua;
+}
+
+
+
+/*For the third row of horizontal lines*/
+#h31to32:hover, #h32to33:hover,
+#h33to34:hover, #h33to34:hover,
+#h34to35:hover, #h35to36:hover{
+    fill:aqua;
+}
+
+/*For the fourth row of horizontal lines*/
+#h41to42:hover, #h42to43:hover,
+#h43to44:hover, #h43to44:hover,
+#h44to45:hover, #h45to46:hover{
+    fill:aqua;
+}
+
+/*For the fifth row of horizontal lines*/
+#h51to52:hover, #h52to53:hover,
+#h53to54:hover, #h53to54:hover,
+#h54to55:hover, #h55to56:hover{
+    fill:aqua;
+}
+
+/*For the sixth row of horizontal lines*/
+#h61to62:hover, #h62to63:hover,
+#h63to64:hover, #h63to64:hover,
+#h64to65:hover, #h65to66:hover{
+    fill:aqua;
+}
+
+/* END OF ALL HORIZONTAL LINES ---------------------*/
+
+/*For the first row of column lines*/
+#c11to21:hover, #c12to22:hover,
+#c13to23:hover, #c14to24:hover,
+#c15to25:hover, #c16to26:hover{
+    fill:aqua;
+}
+
+/*For the second row of column lines*/
+#c21to31:hover, #c22to32:hover,
+#c23to33:hover, #c24to34:hover,
+#c25to35:hover, #c26to36:hover{
+    fill:aqua;
+}
+
+/*For the third row of column lines*/
+#c31to41:hover, #c32to42:hover,
+#c33to43:hover, #c34to44:hover,
+#c35to45:hover, #c36to46:hover{
+    fill:aqua;
+}
+
+/*For the fourth row of column lines*/
+#c41to51:hover, #c42to52:hover,
+#c43to53:hover, #c44to54:hover,
+#c45to55:hover, #c46to56:hover{
+    fill:aqua;
+}
+
+/*For the fifth row of column lines*/
+#c51to61:hover, #c52to62:hover,
+#c53to63:hover, #c54to64:hover,
+#c55to65:hover, #c56to66:hover{
+    fill:aqua;
+}
+
