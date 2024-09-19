@@ -1,4 +1,8 @@
 
+body {
+    background-color: #F5F5DC;
+}
+
 #welcomeBox{
     border: 10px solid #36454F;
     border-radius: 30px;
@@ -119,13 +123,29 @@
     padding-bottom: 10px;
 }
 
-#nameOfPlayerInput {
+#nameOfPlayerInput1 {
     width: 300px;  /* Adjust the width */
     height: 18px;  /* Adjust the height */
     padding: 10px; /* Add padding for more space inside the input */
     font-size: 16px; /* Optional: increase the font size */
+    margin-bottom: 15px;
 }
 
+#nameOfPlayerInput2 {
+    width: 300px;  /* Adjust the width */
+    height: 18px;  /* Adjust the height */
+    padding: 10px; /* Add padding for more space inside the input */
+    font-size: 16px; /* Optional: increase the font size */
+    margin-bottom: 15px;
+}
+
+#nameOfPlayerInput3 {
+    width: 300px;  /* Adjust the width */
+    height: 18px;  /* Adjust the height */
+    padding: 10px; /* Add padding for more space inside the input */
+    font-size: 16px; /* Optional: increase the font size */
+    margin-bottom: 15px;
+}
 
 /* Results page related*/
 #resultsHeader{

@@ -13,6 +13,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const player1Name = localStorage.getItem('player1Name') || 'Player 1';
     const player1Div = document.getElementById('player1');
     player1Div.textContent = `${player1Name} (Blue): 0`;
+
+    // For player 2
+    const player2Name = localStorage.getItem('player2Name') || 'Player 2';
+    const player2Div = document.getElementById('player2');
+    player2Div.textContent = `${player2Name} (Red): 0`;
+
+    // For player 3
+    const player3Name = localStorage.getItem('player3Name') || 'Player 3';
+    const player3Div = document.getElementById('player3');
+    player3Div.textContent = `${player3Name} (Yellow): 0`;
 });
 
 function setUpDotBoxes(){

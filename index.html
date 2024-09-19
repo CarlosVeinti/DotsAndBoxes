@@ -23,20 +23,40 @@
         <br>
         <center>
             <div id="enterNameDiv">
-                <span>Enter your name (Player 1 - Blue) </span>
+                <span>Enter Player 1's name (Blue) </span>
                 <br>
-                <input type="text" id="nameOfPlayerInput">
+                <input type="text" id="nameOfPlayerInput1" placeholder="Optional">
+                <br>
+
+                <span>Enter Player 2's name (Red) </span>
+                <br>
+                <input type="text" id="nameOfPlayerInput2" placeholder="Optional">
+                <br>
+
+                <span>Enter Player 3's name (Yellow) </span>
+                <br>
+                <input type="text" id="nameOfPlayerInput3" placeholder="Optional">
+                <br>
+
+
             </div>
 
         
             <a href="./mainPage.html">
-                <button id="startGameButton" onclick="savePlayerName()"> Start Game  </button>
+                <button id="startGameButton" onclick="savePlayersName()"> Start Game  </button>
             </a>
 
             <script>
-                function savePlayerName() {
-                    const playerName = document.getElementById('nameOfPlayerInput').value;
-                    localStorage.setItem('player1Name', playerName);
+                function savePlayersName() {
+                    const playerName1 = document.getElementById('nameOfPlayerInput1').value;
+                    localStorage.setItem('player1Name', playerName1);
+
+                    const playerName2 = document.getElementById('nameOfPlayerInput2').value;
+                    localStorage.setItem('player2Name', playerName2);
+
+                    const playerName3 = document.getElementById('nameOfPlayerInput3').value;
+                    localStorage.setItem('player3Name', playerName3);                    
+
                 }
             </script>
 
