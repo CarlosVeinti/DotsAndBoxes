@@ -22,9 +22,24 @@
         </center>
         <br>
         <center>
-        <a href="./mainPage.html">
-        <button id="startGameButton"> Start Game  </button>
-        </a>
+            <div id="enterNameDiv">
+                <span>Enter your name (Player 1 - Blue) </span>
+                <br>
+                <input type="text" id="nameOfPlayerInput">
+            </div>
+
+        
+            <a href="./mainPage.html">
+                <button id="startGameButton" onclick="savePlayerName()"> Start Game  </button>
+            </a>
+
+            <script>
+                function savePlayerName() {
+                    const playerName = document.getElementById('nameOfPlayerInput').value;
+                    localStorage.setItem('player1Name', playerName);
+                }
+            </script>
+
         </center>
     </body>
 </html>

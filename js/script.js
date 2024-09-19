@@ -8,8 +8,15 @@ let numberofBoxesLeft = 25;
 
 const defaultGray = '#D3D3D3';
 
+// To load name typed in from index.html
+document.addEventListener("DOMContentLoaded", function() {
+    const player1Name = localStorage.getItem('player1Name') || 'Player 1';
+    const player1Div = document.getElementById('player1');
+    player1Div.textContent = `${player1Name} (Blue): 0`;
+});
+
 function setUpDotBoxes(){
-// Not exactly sure what the zero at the end does.
+
 const svg = document.querySelector(".theDots");
 // Useful source that helped with JS and SVG elements creation:
 // https://www.motiontricks.com/creating-dynamic-svg-elements-with-javascript/
@@ -135,6 +142,7 @@ for(let i=0; i< 6; i++){
     IDrow5++;
 }
 
+
 var x = 10; // reset it to 10 again.
 var IDrow6 = 61;
 // Loop for the sixth row.
@@ -155,6 +163,7 @@ for(let i=0; i< 6; i++){
     x = x + 110;
     IDrow6++;
 }
+    
 }
 
 setUpDotBoxes();
@@ -846,8 +855,6 @@ function wasBoxCompleted(aLineClicked, colorToFill, currentPlayer){
 
 }
 
-
-
 // This might have to execute AFTER loading the results window.
 
     
@@ -918,9 +925,7 @@ function wasBoxCompleted(aLineClicked, colorToFill, currentPlayer){
                         
 
                     }
-                    
-                    
-                    
+
                     // Given the clicked line
                     // We could make it a square, and then do the fill of that square once the box has been completed.
                     // Do not increase current player counter, as the current player would get another chance.
@@ -977,10 +982,7 @@ function wasBoxCompleted(aLineClicked, colorToFill, currentPlayer){
                         numberofBoxesLeft = numberofBoxesLeft-2;
                         
                     }
-
-
-
-                    
+     
                 }
                 else{
                     // nothing to update, give turn to next player.
